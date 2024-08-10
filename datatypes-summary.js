@@ -38,13 +38,15 @@
 // Memory
 // Stack (Primitive) Values, Heap (Non-Primitive) Reference
 
-let myYoutubeName = "sanvp1987"
+let myYoutubeName = "sanvp1987" // value type
 let myanotherChannel = myYoutubeName
 myanotherChannel = "funShorts"
 
 console.log(myYoutubeName)
 console.log(myanotherChannel)
 
+
+ //reference type
 let myObj = {
     fName:"Sandeep",
     age:36
