@@ -26,4 +26,4 @@ console.log("B ",myArr.join())
 const myn2 = myArr.splice(1,3)// whereas splice take value between start and end index 
                                 // and it actually removes that splice from original array
 console.log(myn2.join())
-console.log("C ",myArr.join()) 
+console.log("C ",myArr.join())
