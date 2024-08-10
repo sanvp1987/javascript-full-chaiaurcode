@@ -7,7 +7,7 @@
 
 // //Symbol is used for unique objects
 
- const id = Symbol('123')
+// const id = Symbol('123')
 // const anotherId = Symbol('123') 
 
 // console.table([id,anotherId])
@@ -19,18 +19,40 @@
 
 //Array, Objects, Functions
 
-const heroes = ["Iron Man", "Shakti man", "Spider Man", "Hulk"]
+// const heroes = ["Iron Man", "Shakti man", "Spider Man", "Hulk"]
+// let myObj = {
+//     fName:"Sandeep",
+//     age:36
+// }
+
+// const greet= ()=>{
+//     console.log("Hello Greet")
+// }
+// greet()
+// console.log(typeof greet)
+
+// console.log(typeof myObj)
+// console.log(typeof Symbol)
+// console.log(typeof id)
+
+// Memory
+// Stack (Primitive) Values, Heap (Non-Primitive) Reference
+
+let myYoutubeName = "sanvp1987"
+let myanotherChannel = myYoutubeName
+myanotherChannel = "funShorts"
+
+console.log(myYoutubeName)
+console.log(myanotherChannel)
+
 let myObj = {
     fName:"Sandeep",
     age:36
 }
 
-const greet= ()=>{
-    console.log("Hello Greet")
-}
-greet()
-console.log(typeof greet)
+let myObjSecond = myObj
+myObjSecond.fName="Meet"
+myObjSecond.age = 6
 
-console.log(typeof myObj)
-console.log(typeof Symbol)
-console.log(typeof id)
+console.log(myObj)
+console.log(myObjSecond)
