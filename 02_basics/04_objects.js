@@ -50,9 +50,34 @@ const user = [
     }
 ]
 
-console.log(tinderuser) 
-console.log(Object.keys(tinderuser)) //array of keys
-console.log(Object.values(tinderuser))//array of values
-console.log(Object.entries(tinderuser))//array of entries
+// console.log(tinderuser) 
+// console.log(Object.keys(tinderuser)) //array of keys
+// console.log(Object.values(tinderuser))//array of values
+// console.log(Object.entries(tinderuser))//array of entries
 
-console.log(tinderuser.hasOwnProperty("isLoggedIn")) // Check whether property available in object
+// console.log(tinderuser.hasOwnProperty("isLoggedIn")) // Check whether property available in object
+
+const course = {
+    coursename:"js in Hindi",
+    price:"999",
+    courseInstructor:"Sandeep"
+}
+
+const{price} = course // Object Destructuring
+// console.log(price)
+const{courseInstructor:instructor,coursename} = course // Object Destructuring
+// console.log(instructor,coursename)
+
+
+//API return format
+//JSON
+// {
+//     "name":"Sandeep",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
+
+// //[]
+// [
+//     {},{},{}
+// ]
