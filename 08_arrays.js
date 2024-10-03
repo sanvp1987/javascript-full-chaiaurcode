@@ -13,7 +13,7 @@ myArr.shift() // shift remove first position value
 // console.log(myArr.includes(4))
 // console.log(myArr.indexOf(9))
 
-const newArr = myArr.join()
+const newArr = myArr.join() // Add All array elements in string
 
 //console.log(myArr)
 
